@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+   string name, 
+address, birthday;
+   int age;
+   
+   cout << "Enter Your name: ";
+   cin >> name;
+   
+   cout << "Enter Your birthday: ";
+   cin >> birthday;
+   
+   cout << "Enter Your age: ";
+   cin >> age;
+   
+   cout << "Enter your address: ";
+   cin >> address;
+   
+   cout << "My Name is " << name << "My Birthday is on " << birthday << "And currently I am " << age << "I'm from" << address << endl;
+  
+   
+    return 0;
+}
