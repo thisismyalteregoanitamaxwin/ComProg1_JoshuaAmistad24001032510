@@ -27,7 +27,7 @@
           |                   |
           v                   v
 +---------------------+  +---------------------+
-| Perform the Chosen  |  | Output: Invalid     |
+| perform the Chosen  |  | Output: Invalid     |
 | Operation           |  | choice!             |
 +---------------------+  +---------------------+
           |
