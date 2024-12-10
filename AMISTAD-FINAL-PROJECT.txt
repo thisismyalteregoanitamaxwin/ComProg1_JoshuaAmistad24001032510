@@ -6,12 +6,15 @@ int main() {
     double num1, num2;
     int choice;
 
+    // Prompting user for input
     cout << "Enter two numbers: ";
     cin >> num1 >> num2;
 
+    // Displaying options for the user
     cout << "1. Add\n2. Subtract\n3. Multiply\n4. Divide\n";
     cin >> choice;
 
+    // Performing the chosen operation
     if (choice == 1) {
         cout << "Result: " << (num1 + num2) << endl;
     } else if (choice == 2) {
@@ -19,14 +22,19 @@ int main() {
     } else if (choice == 3) {
         cout << "Result: " << (num1 * num2) << endl;
     } else if (choice == 4) {
+        // Checking for division by zero
         if (num2 != 0) {
             cout << "Result: " << (num1 / num2) << endl;
         } else {
             cout << "Error: Can't divide by zero." << endl;
         }
     } else {
-        cout << "Invalid choice!" << endl;
+        // Handling invalid choices
+        cout << "Invalid choice! Please try again." << endl;
     }
+
+    // Indicating the program has finished running
+    cout << "Processing complete. Exiting..." << endl;
 
     return 0;
 }
