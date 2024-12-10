@@ -34,7 +34,7 @@ int main() {
     }
 
     // Indicating the program has finished running
-    cout << "Processing complete. Exiting..." << endl;
+    cout << "Calcu ni jeyem" << endl;
 
     return 0;
 }
